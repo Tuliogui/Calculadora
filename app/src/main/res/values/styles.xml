@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Operators_Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:backgroundTint">@color/cyan</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">28dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="strokeColor">@color/black</item>
+        <item name="strokeWidth">2dp</item>
+
+    </style>
+
+    <style name="Numbers_Buttons">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/grey</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">28dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">2dp</item>
+
+    </style>
+
+</resources>

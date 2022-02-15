@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/expressao"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textColor="@color/black"
+        android:text=""
+        android:gravity="end"
+        android:textSize="40sp"
+        android:layout_marginEnd="10dp"
+        android:singleLine="true"
+        android:ellipsize="start"
+        />
+
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textColor="@color/black"
+        android:text=""
+        android:gravity="end"
+        android:textSize="30sp"
+        android:maxLines="1"
+        android:layout_marginEnd="10dp"
+        android:singleLine="true"
+        android:ellipsize="start"
+        tools:ignore="EllipsizeMaxLines" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:orientation="horizontal"
+        android:background="@color/grey"
+        >
+
+        <Button
+            android:id="@+id/limpar"
+            style="@style/Operators_Button"
+            android:text="C"
+            />
+
+        <Button
+            android:id="@+id/divisao"
+            style="@style/Operators_Button"
+            android:text="/"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="@color/grey">
+
+        <TextView
+            android:id="@+id/num_sete"
+            style="@style/Numbers_Buttons"
+            android:text="7"/>
+
+        <TextView
+            android:id="@+id/num_oito"
+            style="@style/Numbers_Buttons"
+            android:text="8"/>
+
+        <TextView
+            android:id="@+id/num_nove"
+            style="@style/Numbers_Buttons"
+            android:text="9"/>
+
+        <Button
+            android:id="@+id/multiplica"
+            style="@style/Operators_Button"
+            android:text="x"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="@color/grey">
+
+        <TextView
+            android:id="@+id/num_quatro"
+            style="@style/Numbers_Buttons"
+            android:text="4"/>
+
+        <TextView
+            android:id="@+id/num_cinco"
+            style="@style/Numbers_Buttons"
+            android:text="5"/>
+
+        <TextView
+            android:id="@+id/num_seis"
+            style="@style/Numbers_Buttons"
+            android:text="6"/>
+
+        <Button
+            android:id="@+id/subtrai"
+            style="@style/Operators_Button"
+            android:text="-"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="@color/grey">
+
+
+        <TextView
+            android:id="@+id/num_um"
+            style="@style/Numbers_Buttons"
+            android:text="1"/>
+
+        <TextView
+            android:id="@+id/num_dois"
+            style="@style/Numbers_Buttons"
+            android:text="2"
+            />
+
+        <TextView
+            android:id="@+id/num_tres"
+            style="@style/Numbers_Buttons"
+            android:text="3"/>
+
+        <Button
+            android:id="@+id/soma"
+            style="@style/Operators_Button"
+            android:text="+"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="@color/grey"
+        >
+
+
+        <TextView
+            android:id="@+id/ponto"
+            style="@style/Numbers_Buttons"
+            android:text="."
+            />
+
+        <TextView
+            android:id="@+id/num_zero"
+            style="@style/Numbers_Buttons"
+            android:text="0"/>
+
+        <ImageView
+            android:id="@+id/backspace"
+            style="@style/Numbers_Buttons"
+            android:src="@drawable/backspace"
+            android:scaleType="center"
+            />
+
+        <Button
+            android:id="@+id/igual"
+            style="@style/Operators_Button"
+            android:text="="/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
